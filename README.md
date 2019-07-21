@@ -9,3 +9,5 @@ this folder have a classic carousel with dot var indicator and slides with time,
 ## linear carousel
 
 A linear carousel is a carousel with transition slides create with only bottom, i will improve with the time.
+
+you can see the implementation in this page **www.ecuareplacementparts.com**
