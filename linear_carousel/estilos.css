@@ -1,0 +1,86 @@
+.container{
+    display: grid;
+}
+
+section.briefUs div#linear{
+    grid-template-columns: 1fr 8fr 1fr;
+    margin-top: 50px;
+    height: 135.7px;
+}
+
+section.briefUs div#linear div.container_item{
+    position: relative;
+   
+}
+section.briefUs div#linear div.container_item div.item{
+    position: absolute;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    
+   
+}
+section.briefUs div#linear div.container_item div.item:nth-of-type(8)
+{
+    display: none;
+}
+section.briefUs div#linear div.container_item div.item a img{
+    
+    width: 100px;
+    height: 132px;
+}
+
+.item, .flecha{
+    justify-self: center;
+    align-self: center;
+}
+.flecha:hover{
+    cursor:pointer;
+}
+
+
+@media screen and (max-width: 1023px){
+
+      section.briefUs div#linear div.container_item div.item:nth-of-type(7)
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px){
+    section.briefUs div#linear div.container_item div.item:nth-of-type(6)
+        {
+            display: none;
+        }
+
+}
+@media screen and (max-width: 700px){
+ section.briefUs div#linear div.container_item div.item:nth-of-type(5)
+    {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 567px){
+
+    section.briefUs div#linear div.container_item div.item:nth-of-type(4)
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 479px){ 
+
+    section.briefUs div#linear div.container_item div.item:nth-of-type(3)
+    {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+section.briefUs div#linear div.container_item div.item:nth-of-type(2)
+    {
+        display: none;
+    }
+}
